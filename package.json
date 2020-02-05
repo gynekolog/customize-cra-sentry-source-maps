@@ -1,0 +1,27 @@
+{
+  "name": "customize-cra-sentry-source-maps",
+  "version": "1.0.0",
+  "description": "Add sentry/webpack-plugin to any create-react-app using customize-cra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gynekolog/customize-cra-sentry-source-maps.git"
+  },
+  "keywords": [
+    "cra",
+    "sentry",
+    "react",
+    "webpack"
+  ],
+  "author": "Honza Gál",
+  "license": "ISC",
+  "peerDependencies": {
+    "customize-cra": "^0.9.1"
+  },
+  "dependencies": {
+    "@sentry/webpack-plugin": "^1.10.0"
+  }
+}
